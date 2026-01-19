@@ -1,0 +1,19 @@
+[
+  {
+    "projectName": "Payments Revamp",
+    "startMonth": 1,
+    "endMonth": 6,
+    "skillDemand": [
+      { "skill": "Backend", "pmPerMonth": 2 },
+      { "skill": "Frontend", "pmPerMonth": 1 }
+    ]
+  },
+  {
+    "projectName": "Mobile App QA",
+    "startMonth": 2,
+    "endMonth": 5,
+    "skillDemand": [
+      { "skill": "QA", "pmPerMonth": 1 }
+    ]
+  }
+]

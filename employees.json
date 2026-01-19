@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Ashish",
+    "role": "Backend Engineer",
+    "monthlyCost": 150000,
+    "utilization": 0.8,
+    "skills": ["Backend"]
+  },
+  {
+    "name": "Amit",
+    "role": "Full Stack Engineer",
+    "monthlyCost": 160000,
+    "utilization": 0.85,
+    "skills": ["Backend", "Frontend"]
+  },
+  {
+    "name": "Neha",
+    "role": "QA Engineer",
+    "monthlyCost": 100000,
+    "utilization": 0.7,
+    "skills": ["QA"]
+  }
+]
