@@ -71,7 +71,38 @@ This project provides a **forward-looking capacity and budget forecasting engine
 - Scenario toggle
 
 ---
+## 🏗️ System Architecture
 
+### High-Level Architecture
+```
+┌──────────────────────┐
+│ React UI │
+│ (Executive Dashboard)│
+└──────────▲───────────┘
+│ REST API
+┌──────────┴───────────┐
+│ Node.js + Express │
+│ API │
+└──────────▲───────────┘
+│
+┌──────────┴────────────────────────────┐
+│ Business Logic Engines │
+│ │
+│ Capacity Engine │
+│ Demand Engine │
+│ Gap Analysis Engine │
+│ Decision Engine │
+│ Cost Forecast Engine │
+│ Scenario Simulation Engine │
+└──────────▲────────────────────────────┘
+│
+┌──────────┴───────────┐
+│ MongoDB │
+│ (Employees, Projects,│
+│ Configs) │
+└──────────────────────┘
+
+```
 ### Mermaid Diagram (GitHub-supported)
 
 mermaid
@@ -118,7 +149,7 @@ Database
 
 MongoDB
 
-
+```
 tech-capacity-forecasting/
 │
 ├── backend/
@@ -186,7 +217,7 @@ tech-capacity-forecasting/
 ├── project_demands.json
 │
 └── README.md
-
+```
 
 🚀 How to Run Locally
 Backend
